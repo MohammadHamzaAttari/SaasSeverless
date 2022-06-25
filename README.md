@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 500f618c3c290c419615174d91d7726206108703
@@ -78,3 +79,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Bootcamp2020
 >>>>>>> c23974d67bee7506ea43692f9bb0a355771feb09
 >>>>>>> 500f618c3c290c419615174d91d7726206108703
+=======
+# SaasSeverless
+>>>>>>> 1b40a7cd2b7f50aa75a6850fdabff269b8c69fb0
