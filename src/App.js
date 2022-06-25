@@ -3,7 +3,7 @@ import Detail from './components/Details';
 function App() {
   return (
     <div className="App">
-      <Detail name="Chicken Biryani" sweet="Gajar ka Halwa" />
+      <Detail name="Chicken Biryani" sweet="Gajar ka Halwa" sname="sofia" />
       <hr />
       <Detail name="Chicken Karahi" sweet="Pethay ka Halwa" />
       <hr />
