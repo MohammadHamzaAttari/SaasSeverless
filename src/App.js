@@ -1,15 +1,15 @@
 import './App.css';
-import Detail from './components/Details';
+import React, { useState } from 'react'
+import Msg from './components/Message';
 function App() {
+  const [count, setCount] = useState(1);
+  const [isMorning, setMorning] = useState(true)
+  const [isDay, setDay] = useState("Night")
   return (
-    <div className="App">
-      <Detail name="Chicken Biryani" sweet="Gajar ka Halwa" sname="sofia" />
-      <hr />
-      <Detail name="Chicken Karahi" sweet="Pethay ka Halwa" />
-      <hr />
-      <Detail name="Chicken Korma" sweet="PineAple ka Halwa" />
-      <hr />
-
+    <div className={`box ${isMorning ? "dayLight" : ''}`}>
+      <Msg counter={count} />
+      <button onClick={() => setCount(count + 1)}>ClickToIncrease</button>
+      <button onClick={() => setMorning(!isMorning)} >Enter for Change</button>
     </div>
   );
 }
